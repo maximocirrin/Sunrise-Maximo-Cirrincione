@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.text {
+    color: #808080;
+}
+
+.carritoLogo {
+    width: 40px;
+    justify-self: flex-end;
+}
+
+.align {
+    display: flex;
+}
+
+.numero {
+    position: relative;
+    color: #25292d;
+    z-index: 7;
+}
+
+.align2 {
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+    border-radius: 100%;
+    padding-left: 0.3%;
+    padding-bottom: 20px;
+}
