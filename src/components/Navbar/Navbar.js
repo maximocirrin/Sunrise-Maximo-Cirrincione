@@ -1,4 +1,5 @@
 import React from 'react'
+import Cartwidget from '../Cartwidget'
 import "./Navbar.css"
 
 const Navbar = () => {
@@ -22,10 +23,10 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-    <div>
-      <img src="https://cdn-icons-png.flaticon.com/512/709/709505.png" alt="" className='carritoLogo'/>
-    </div>
-    <div className='align2'>
+    <div className='carritoLogo'>
+          <Cartwidget/>
+        </div>
+        <div className='align2'>
       <p className='numero'>2</p>
     </div>
   </div>
